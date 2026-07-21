@@ -1,10 +1,10 @@
 # Gemstone collection API
 
-This is a high performance REST API for my gemstone / rock collection. My uncle's friend has an opal mine in cooberpedy and gave me a bunch of opals when I was about 8 years old; this started my fascination with rocks and gemstones.
+This is a high performance REST API for my gemstone / rock collection. My uncle's friend has an opal mine in Coober Pedy and gave me a bunch of opals when I was about 8 years old; this began my obsession with rocks and gemstones - spent hours every day cleaning them, reading descriptions, grouping them...
 
 ---
 
-*This project combines my love of rocks and love of programming* (ง'̀-'́)ง
+*This project is a combination of my love of rocks and my love of programming* (ง'̀-'́)ง
 
 ---
 
@@ -35,7 +35,7 @@ always kept in working state and never commit directly to main
 
 create a new feature branch off main using the following naming conventions:
 
-`feature/` for new functionality e.g. `feature/short-descrition`
+`feature/` for new functionality e.g. `feature/short-description`
 `fix/` for bug fixes
 `docs/` for documentation
 
@@ -49,7 +49,7 @@ create a new feature branch off main using the following naming conventions:
    `git push -u origin feature/add-stonetype-routes`
 5. open pull request into `main` and review changes
 6. once it looks good, merge pr and delete branch
-7. switch back to `main` and pull so local copy so local copy has merged change 
+7. switch back to `main` and pull so local copy has merged change 
 
 ## Getting started
 
