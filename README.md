@@ -47,9 +47,19 @@ create a new feature branch off main using the following naming conventions:
 3. Commit as doing the work in logical steps
 4. Push branch to github:
    `git push -u origin feature/add-stonetype-routes`
-5. open pull request into `main` and review changes
-6. once it looks good, merge pr and delete branch
-7. switch back to `main` and pull so local copy has merged change 
+5. open pull request into `main` and review changes:
+
+   `gh pr create <branch/branch-name> --web`
+7. once it looks good, merge pr
+8. switch back to `main` and pull so local copy has merged change: 
+
+   `git checkout main`
+
+   `git pull`
+10. delete branch:
+   `git branch -d <branch/branch-name>`
+   
+   `git push origin --delete <branch/branch-name>`
 
 ## Getting started
 
